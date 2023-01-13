@@ -383,8 +383,8 @@ public class HP_changed extends JFrame {
                 else if(item.equalsIgnoreCase("Workshop: Blockchain+Web3")){
                     Event="blockweb3";
                 }
-                else{
-                    ;
+                else if(item.equalsIgnoreCase("Workshop: IEEE")){
+                    Event="ieee";
                 }
                 System.out.println(Event);
                 String insertQ = "INSERT INTO " + Event + "(name, department, semester, contactno, gmail) " +
